@@ -1,0 +1,2 @@
+SELECT pizza_category,SUM(total_price)as Total_Pizza_sold_Pizza_cat from pizza_sales
+group by pizza_category
