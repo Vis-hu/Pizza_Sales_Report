@@ -1,0 +1,1 @@
+SELECT SUM(quantity)/COUNT(distinct(order_id))As Avg_Pizza_Per_Order from pizza_sales
